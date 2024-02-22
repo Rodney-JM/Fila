@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fila do Almoço</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="src/styles/main.css">
+</head>
+<body>
+    
+    <main class="main-content">
+        <i class='bx bxs-bowl-hot'></i>
+        <header class="header">
+            <h1>Fila do Almoço</h1>
+        </header>    
+        <div class="normal-local">
+            <h2>Entre na fila normalmente:</h2>
+            <input type="text" name="name" id="normalLocal" placeholder="Digite o nome aqui">
+        </div>
+        <div class="pull-local">
+            <h2>Fure fila:</h2>
+            <input type="text" name="namePull" id="pullLocal" placeholder="Digite o nome aqui">
+        </div>
+        <button type="submit" id="btn">Add</button> 
+
+        <ul id="list">
+        </ul>
+    </main>
+    <script src="src/scripts/main.js"></script>
+</body>
+</html>
